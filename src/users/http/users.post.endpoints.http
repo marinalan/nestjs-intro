@@ -1,0 +1,32 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsImVtYWlsIjoibWFya0Bkb2UuY29tIiwiaWF0IjoxNzM3NzEwNTA1LCJleHAiOjE3Mzc3MTQxMDUsImF1ZCI6ImxvY2FsaG9zdDozMDAwIiwiaXNzIjoibG9jYWxob3N0OjMwMDAifQ.rHoEx5Z-cMqZ-kNP5Vqa5E2jf_-cDXBl9ROYXxJVKvw
+
+{
+    "firstName": "Mary",
+    "lastName": "Haggins",
+    "email": "mary@haggins.com",
+    "password": "pasS13#tP"
+}
+
+
+POST http://localhost:3000/users/create-many
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsImVtYWlsIjoibWFya0Bkb2UuY29tIiwiaWF0IjoxNzM1ODA5NTI3LCJleHAiOjE3MzU4MTMxMjcsImF1ZCI6ImxvY2FsaG9zdDozMDAwIiwiaXNzIjoibG9jYWxob3N0OjMwMDAifQ.rxYaIAPGYODzep2Z0Yoe4N0231cXkWJd12naUz7-wCA
+
+{
+    "users":[
+        {
+            "firstName": "Justin",
+            "lastName": "Bernson",
+            "email": "justin.bernson@vintage-instincts.com",
+            "password": "pasS13#tP"
+        },
+        {
+            "firstName": "Marc",
+            "lastName": "Doe",
+            "email": "marc.doe@vintage-instincts.com",
+            "password": "pasS13#tP"
+        }
+    ]
+}

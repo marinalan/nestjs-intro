@@ -1,0 +1,8 @@
+POST http://localhost:3000/tags
+Content-Type: application/json
+
+{
+    "name": "NestJS",
+    "slug": "nestjs",
+    "description": "NestJS framework"
+}

@@ -1,0 +1,43 @@
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "React ecommerce dashboard 7",
+    "postType": "post",
+    "slug": "react-ecommerce-dashboard-7",
+    "status": "draft",
+    "content": "Long, Long TODO, but with vue",
+    "schema": "{\r\n    \"@context\": \"https:\/\/schema.org\",\r\n    \"@type\": \"Person\"\r\n  }",
+  "featuredImageUrl": "http://localhost.com/images/image1.jpg",
+  "publishOn": "2024-12-23T01:29:05-0800",
+  // "tags": [
+  //   "nestJS",
+  //   "typescript"
+  // ],
+  "metaOptions": 
+    {
+      "metaValue": "{\"sidebarEnabled\": false, \"footerActive\": true}"
+    },
+  "authorId": 1,
+  "tags": [1,4]
+}
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsImVtYWlsIjoibWFya0Bkb2UuY29tIiwiaWF0IjoxNzM3MjcxOTQ1LCJleHAiOjE3MzcyNzU1NDUsImF1ZCI6ImxvY2FsaG9zdDozMDAwIiwiaXNzIjoibG9jYWxob3N0OjMwMDAifQ.2me64gQ99rh-pk4f6Fwt4YvUajEtQG_xS6lf0ColqrA
+
+{
+    "title": "Other without metaOptions",
+    "postType": "post",
+    "slug": "new-with-nestjs-8",
+    "status": "draft",
+    "content": "post-content-3",
+    "schema": "{\r\n    \"@context\": \"https:\/\/schema.org\",\r\n    \"@type\": \"Person\"\r\n  }",
+  "featuredImageUrl": "http://localhost.com/images/image1.jpg",
+  "publishOn": "2024-11-16T07:46:32+0000",
+  "metaOptions": 
+    {
+      "metaValue": "{\"sidebarEnabled\": false, \"footerActive\": true}"
+    },
+  "tags": [1,4]
+}

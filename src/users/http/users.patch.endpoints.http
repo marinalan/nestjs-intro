@@ -1,0 +1,8 @@
+PATCH http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "lastName": "Dowly",
+    "email": "john.dowly@burrardlaptops.com",
+    "password": "pasS13#sWK"
+}
