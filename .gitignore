@@ -38,7 +38,7 @@ lerna-debug.log*
 package-lock.json
 
 # Configuration for TypeORM
-typeorm-cli.config.js
+typeorm-cli.config.ts
 
 # dotenv environment variable files
 .env
